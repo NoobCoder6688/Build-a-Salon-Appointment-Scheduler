@@ -97,3 +97,9 @@ __vsc_prompt_cmd_original
 ./salon.sh
 ./salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git init
+git remote add origin https://github.com/Noobcoder6688/Build-a-salon-appointment-schedule
+git remote -v
+git remote set-url origin https://github.com/Noobcoder6688/Build-a-salon-appointment-scheduler
+git add .
